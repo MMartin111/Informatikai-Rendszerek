@@ -19,8 +19,14 @@ public class Stock {
 	@Column(name="name")
 	private String name;
 	
-	@Column(name="count")
-	private String count;
+	@Column(name="kepzettseg")
+	private String kepzettseg;
+	
+	@Column(name="oraber")
+	private String oraber;
+	
+	@Column(name="statusz")
+	private String statusz;
 
 
 	public int getId() {
@@ -39,17 +45,33 @@ public class Stock {
 		this.name = name;
 	}
 
-	public String getCount() {
-		return count;
+	public String getKepzettseg() {
+		return kepzettseg;
 	}
 
-	public void setCount(String count) {
-		this.count = count;
+	public void setKepzettseg(String kepzettseg) {
+		this.kepzettseg = kepzettseg;
+	}
+	
+	public String getOraber() {
+		return oraber;
+	}
+	
+	public void setOraber(String oraber) {
+		this.oraber = oraber;
+	}
+	
+	public String getStatusz() {
+		return statusz;
+	}
+	
+	public void setStatusz(String statusz) {
+		this.statusz = statusz;
 	}
 
 	@Override
 	public String toString() {
-		return "Stock [Id=" + Id + ", name=" + name + ", count=" + count + "]";
+		return "Stock [Id=" + Id + ", name=" + name + ", count=" + kepzettseg + "]";
 	}
 	
 	

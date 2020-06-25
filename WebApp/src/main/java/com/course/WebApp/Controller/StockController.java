@@ -39,16 +39,14 @@ public class StockController {
 	
 	@RequestMapping("/addItem")
 	public String addItem(Stock item){
-		
 		repo.save(item);
-		
 		return "add.jsp";
 	}
 
-	@RequestMapping(value="/showWorkers",method=RequestMethod.GET)
+	@RequestMapping(value="/showItems",method=RequestMethod.GET)
 		public String getAllItem(Model model){
 		model.addAttribute("items",getItems());
-		return "workers.jsp";				
+		return "Items.jsp";				
 	}
 	
 	

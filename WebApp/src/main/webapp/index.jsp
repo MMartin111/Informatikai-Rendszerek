@@ -19,7 +19,7 @@
 	</style>
 </head>
 <body style="background-color:powderblue;">
-	<h1 align="center">Uzem</h1>
+	<h1 align="center">HR felulet</h1>
 	<table>
 		<tr>
 			<th><p><form action = "showItems">

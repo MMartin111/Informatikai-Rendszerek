@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	  	<h3 align="center">A(z) ${stock.name} uditobol ${stock.count} darab all rendelkezesre.</h3>
+	  	<h3 align="center">A(z) ${stock.name} dolgozo statusza ${stock.statusz}.</h3>
 
 		<p><form action="back">
   		<input type="submit" value="Vissza">

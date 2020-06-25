@@ -28,12 +28,14 @@
 
 		
 
-	<h1 align="center">Uj udito hozzaadasa</h1>
+	<h1 align="center">Uj munkas hozzaadasa</h1>
 	<form action="addItem">
 	<table>
             <tr>
                 <td><h3>Name</h3><p><input type="text" name="name" required id="name"/></p></td>
-                <td><h3>Count</h3><p><input type="text" required name="count" id="count"/></p></td>
+                <td><h3>Kepzettseg</h3><p><input type="text" required name="kepzettseg" id="kepzettseg"/></p></td>
+                <td><h3>Oraber</h3><p><input type="text" required name="oraber" id="oraber"/></p></td>
+                <td><h3>Statusz</h3><p><input type="text" required name="statusz" id="statusz"/></p></td>
             </tr>
             <tr>
                 <td colspan="2">
